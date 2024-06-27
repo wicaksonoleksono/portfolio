@@ -1,5 +1,4 @@
 import React from "react";
-import { Reddit_Mono } from "next/font/google";
 import { CircleGradientSVG } from "@/svg/circle";
 
 interface IntroductionProps {
@@ -8,12 +7,6 @@ interface IntroductionProps {
   goToResumePage: () => void;
 }
 
-const redditMono = Reddit_Mono({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-reddit",
-});
-
 const Introduction: React.FC<IntroductionProps> = ({
   front,
   goToBlogPage,
@@ -21,7 +14,7 @@ const Introduction: React.FC<IntroductionProps> = ({
 }) => {
   return (
     <div
-      className={`${redditMono.variable} bg-gradient-to-br bg-cover bg-fixed flex flex-col justify-center p-8 md:p-24 relative`}
+      className={` bg-gradient-to-br bg-cover bg-fixed flex flex-col justify-center p-8 md:p-24 relative`}
     >
       <CircleGradientSVG />
       <div className="absolute inset-0 flex justify-start items-center">
@@ -35,9 +28,7 @@ const Introduction: React.FC<IntroductionProps> = ({
         </h1>
         <div className="flex flex-row text-3xl font-medium mt-3 pt-3">
           <h1>I build</h1>
-          <h1 className="ml-2 bg-black text-white px-4 py-1 reddit_mono">
-            {front}
-          </h1>
+          <h1 className="ml-2 bg-black text-white px-4 py-1">{front}</h1>
         </div>
         <div className="mt-5 flex flex-row space-x-3 font-semibold">
           <button
