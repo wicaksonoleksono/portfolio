@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import LayoutComponent from "@/Components/layoutComponent";
 import CardContainer from "@/Components/cardComponent";
-import CarouselComponent from "@/Components/carouselComponent";
 import MagnetButton from "@/Components/Common/MagnetButtonComponent/MagnetButton";
 
 const calculateAge = (birthdate: string): string => {
