@@ -10,7 +10,7 @@ const Index = () => {
           <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
           <div className="relative h-full">
             <h1 className="font-bold text-3xl md:text-5xl pb-3">
-              Airlangga Wicaksono P.
+              wicaksono leksono
             </h1>
             <p className="pb-2 text-sm md:text-base">
               Machine Learning Engineer
