@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import LayoutComponent from "@/Components/layoutComponent";
-import CardContainer from "@/Components/cardComponent";
 import MagnetButton from "@/Components/Common/MagnetButtonComponent/MagnetButton";
 
 const calculateAge = (birthdate: string): string => {
@@ -35,31 +34,37 @@ const Index: React.FC = () => {
 
   return (
     <LayoutComponent>
-      <main className="h-screen grid grid-cols-3 grid-rows-4 md:p-20 gap-4">
-        <div className="col-span-2 row-span-4 h-full">
-          <CardContainer fullHeight={true}>h1</CardContainer>
+      <main className="h-auto md:h-screen grid grid-cols-1 md:grid-cols-3 grid-rows-4 md:p-20 p-20 gap-4">
+        <div className="col-span-1 md:col-span-2 row-span-1 md:row-span-4 h-auto md:h-full">
+          <div className="relative p-5 border-2 border-black shadow-[1px_1px_0px_black] overflow-hidden z-10">
+            <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
+            <div className=" h-96"></div>
+          </div>
         </div>
 
-        <div className="col-start-3 row-span-2 ">
-          <CardContainer fullHeight={true}>
-            <h1 className="font-bold text-4xl">Preliminarily </h1>
-            <p className="pt-5 font-semibold">
-              Hi there, my name is Wicaksono. I'm <span>{age}</span> old and
-              counting! I'm a machine learning engineer currently working on my
-              master's at Universitas Gadjah Mada. I have a technical
-              understanding of how machine learning and deep learning algorithms
-              work. i'm a life long learner!
-            </p>
-          </CardContainer>
+        <div className="col-span-1 row-span-1 md:row-span-2 h-auto md:h-full">
+          <div className="relative p-5 border-2 border-black shadow-[1px_1px_0px_black] overflow-hidden z-10">
+            <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
+            <div className="relative h-full">
+              <h1 className="font-bold text-4xl">Preliminarily</h1>
+              <p className="pt-5 font-semibold">
+                Hi there, my name is Wicaksono. I'm <span>{age}</span> old and
+                counting! I'm a machine learning engineer currently working on
+                my master's at Universitas Gadjah Mada. I have a technical
+                understanding of how machine learning and deep learning
+                algorithms work. I'm a life long learner!
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div className="col-start-3 row-start-3 row-span-2 flex items-center justify-center">
+        <div className="col-span-1 row-span-1 md:row-span-2 flex items-center justify-center h-auto md:h-full">
           <a
             href="https://calendly.com/wicaksonolxn/30min"
             className="flex flex-col items-center justify-center"
           >
             <MagnetButton />
-            <h1 className="font-bold text-2xl">Grab a coffee with me ?</h1>
+            <h1 className="font-bold text-2xl">Grab a coffee with me?</h1>
           </a>
         </div>
       </main>
