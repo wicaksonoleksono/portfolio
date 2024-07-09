@@ -1,8 +1,10 @@
 import React from "react";
 import LayoutComponent from "@/Components/layoutComponent";
 import { useRouterFunctions } from "@/hooks/routerHooks";
+
 const Index = () => {
   const { goToAboutPage } = useRouterFunctions();
+
   return (
     <LayoutComponent>
       <main className="h-auto flex flex-col gap-4 p-20 md:p-20 md:pl-10 md:grid md:grid-cols-3">
@@ -10,7 +12,7 @@ const Index = () => {
           <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
           <div className="relative h-full">
             <h1 className="font-bold text-3xl md:text-5xl pb-3">
-              wicaksono leksono
+              Wicaksono Leksono Muhamad
             </h1>
             <p className="pb-2 text-sm md:text-base">
               Machine Learning Engineer
@@ -38,6 +40,7 @@ const Index = () => {
                 <li>Introduction to Artificial Intelligence</li>
                 <li>Data Science and Machine Learning</li>
               </ul>
+
               <h3 className="font-semibold pt-3 text-lg md:text-xl">
                 Activities and Organizations
               </h3>
@@ -53,6 +56,7 @@ const Index = () => {
                 <li>Chief Executive LOMT HIMATIKA 2019</li>
                 <li>Head of Organizing Committee LKMMTD 2019</li>
               </ul>
+
               <h4 className="font-semibold pt-3 text-md md:text-lg">
                 Staff of Event
               </h4>
@@ -64,9 +68,11 @@ const Index = () => {
                 <li>Conceptor of UKM EXPO 2019</li>
                 <li>Moderator in SMA 2019</li>
               </ul>
+
               <li className="font-bold text-lg md:text-2xl relative pb-2 before:content-['•'] before:absolute before:left-[-1.5rem] before:text-lg">
                 Master of Artificial Intelligence
               </li>
+              <p>Universitas Gadjah Mada</p>
               <h3 className="font-semibold pt-3 text-lg md:text-xl">
                 Relevant Coursework
               </h3>
@@ -81,10 +87,10 @@ const Index = () => {
             </ul>
           </div>
         </div>
+
         <div className="flex flex-col gap-4">
           <div className="relative p-5 border-2 border-black shadow-[1px_1px_0px_black] overflow-hidden z-10">
             <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
-
             <div className="relative h-full">
               <h1 className="font-bold text-3xl md:text-5xl">Profile</h1>
               <p className="text-sm md:text-xl pt-5">
@@ -95,6 +101,7 @@ const Index = () => {
               </p>
             </div>
           </div>
+
           <div className="relative p-5 border-2 border-black shadow-[1px_1px_0px_black] overflow-hidden z-10">
             <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
             <div className="relative h-full">
@@ -116,6 +123,7 @@ const Index = () => {
               </ul>
             </div>
           </div>
+
           <div className="relative p-5 border-2 border-black shadow-[1px_1px_0px_black] overflow-hidden z-10">
             <div className="relative inset-0 bg-gradient-to-br bg-opacity-1 filter blur-lg rounded-lg" />
             <div className="relative h-full">
@@ -132,6 +140,7 @@ const Index = () => {
                 <li>Seaborn / Matplotlib</li>
                 <li>NLTK</li>
               </ul>
+
               <h2 className="font-bold text-3xl md:text-4xl pt-4 pb-2">
                 Software Engineering Stack
               </h2>
@@ -147,6 +156,7 @@ const Index = () => {
             </div>
           </div>
         </div>
+
         <button
           onClick={goToAboutPage}
           className="col-span-full rounded-1xl border-2 shadow-[1px_1px_0px_black] border-black  px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none"
