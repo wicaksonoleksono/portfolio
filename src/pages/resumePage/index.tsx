@@ -111,13 +111,30 @@ const Index = () => {
               <ul className="list-disc pl-5 text-sm md:text-base">
                 <li className="pb-2">
                   <h3 className="font-bold text-xl">
-                    PT Busur Rukun Makmur Real Estate (2023-Present)
+                    Digital consultant PT BSM | React (NextJS), Figma, Docker,
+                    Google Cloud Platform
                   </h3>
                   <ul className="list-disc pl-5">
-                    <li>Monthly expense bookkeeping</li>
-                    <li>Yearly expense bookkeeping</li>
-                    <li>Tax of expense bookkeeping</li>
-                    <li>Department budgeting bookkeeping</li>
+                    <li>
+                      Developing a company profile website using React (NextJS)
+                      for a dynamic and responsive user interface.
+                    </li>
+                    <li>
+                      Utilizing Docker for containerized deployment to ensure
+                      consistency across different environments.
+                    </li>
+                    <li>
+                      Implementing cloud services on Google Cloud Platform for
+                      scalable and reliable hosting solutions.
+                    </li>
+                    <li>
+                      Designing the user interface and user experience with
+                      Figma to ensure a professional and engaging look.
+                    </li>
+                    <li>
+                      Collaborating with the marketing team to integrate
+                      promotional content and advertisements effectively.
+                    </li>
                   </ul>
                 </li>
               </ul>
