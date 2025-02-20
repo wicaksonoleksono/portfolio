@@ -22,7 +22,7 @@ const Index = () => {
             </h2>
             <ul className="list-none pl-0 text-sm md:text-base">
               <li className="font-bold text-lg md:text-2xl relative pb-2 before:content-['•'] before:absolute before:left-[-1.5rem] before:text-lg">
-                Bachelor of Mathematics
+                Bachelor of Mathematics and Computer Science
               </li>
               <p>Institut Teknologi Sepuluh Nopember</p>
 
@@ -33,12 +33,16 @@ const Index = () => {
               <ul className="list-disc pl-5">
                 <li>Multi-variable Calculus</li>
                 <li>Algorithm Design and Analysis</li>
+                <li>Analysis I & II</li>
                 <li>Mathematical Statistics</li>
-                <li>Statistics Modeling</li>
-                <li>Math Modeling</li>
+                <li>Mathemathical and Statistics Modeling</li>
                 <li>Linear Algebra</li>
                 <li>Introduction to Artificial Intelligence</li>
                 <li>Data Science and Machine Learning</li>
+                <li>Neural Networks</li>
+                <li>Introduction to smart Systems</li>
+                <li>Introduction to Natural Language Processing</li>
+                <li>Introduction to Computer Vision</li>
               </ul>
 
               <h3 className="font-semibold pt-3 text-lg md:text-xl">
@@ -137,6 +141,66 @@ const Index = () => {
                     </li>
                   </ul>
                 </li>
+
+                <li className="pb-2">
+                <h3 className="font-bold text-xl">
+                  Security Splunk-Like Application (NDA signed, cannot disclose)  
+                  <br />| React (Vite), React Redux Toolkit,Jotai, Zustand, Docker Compose, Golang (Echo), Redis, GitLab CI/CD, DDD 
+                </h3>
+                <ul className="list-disc pl-5">
+                  <li>
+                    Developed the frontend following the Domain-Driven Design (DDD) approach, ensuring clear separation of concerns by structuring the application into domains, aggregates, entities, and value objects.
+                  </li>
+                  <li>
+                    Designed and implemented a state manager to efficiently handle filtering across multiple tables, aligning with DDD’s bounded contexts and domain models.
+                  </li>
+                  <li>
+                    Developed the backend using REST APIs and WebSockets, ensuring real-time updates on statistics while maintaining event-driven communication for better decoupling.
+                  </li>
+                  <li>
+                    Applied Domain Events and CQRS principles where necessary to keep the system scalable and responsive.
+                  </li>
+                  <li>
+                    Collaborated with six other developers using GitLab CI/CD, working alongside one PM and a Scrum Master to maintain agile development cycles and continuous integration.
+                  </li>
+                </ul>
+              </li>
+              <li className="pb-2">
+  <h3 className="font-bold text-xl">
+    Decision Support System (DSS) - Built for Fun  
+    <br />| TypeScript, React (Vite), Flask, Firebase Firestore, Render, Netlify
+  </h3>
+  <ul className="list-disc pl-5">
+    <li>
+      Developed a **Decision Support System (DSS)** with a focus on multi-criteria decision-making, implementing **SAW (Simple Additive Weighting)** and **WP (Weighted Product)** methods.
+    </li>
+    <li>
+      Designed and built a **DSS calculator** with a hierarchical structure that includes **sub-criteria**, improving the accuracy of decision evaluations.
+    </li>
+    <li>
+      Utilized **Firebase Firestore** as the real-time database, ensuring efficient data retrieval and synchronization.
+    </li>
+    <li>
+      Developed the backend using **Flask**, providing a lightweight yet powerful API to handle DSS computations.
+    </li>
+    <li>
+      Integrated **Vite bundler** to optimize frontend performance, ensuring fast build times and efficient module handling.
+    </li>
+    <li>
+      Deployed the application using **Render (for the backend)** and **Netlify (for the frontend)**, ensuring smooth and scalable hosting.
+    </li>
+    <li>
+      Created an intuitive and responsive UI to enhance user experience, allowing users to input and process decision criteria efficiently.
+    </li>
+    <li>
+      Hosted the live application at <a href="https://dsscalculator.netlify.app/" className="text-blue-500 hover:underline">DSS Calculator</a>.
+    </li>
+  </ul>
+</li>
+
+
+
+                
               </ul>
             </div>
           </div>
